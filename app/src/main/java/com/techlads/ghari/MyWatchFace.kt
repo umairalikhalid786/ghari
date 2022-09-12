@@ -540,6 +540,7 @@ class MyWatchFace : CanvasWatchFaceService() {
     private fun feature1(){
         Log.e("f1", "feature 1")
         // Change 5
+        // Change 6
     }
 
     fun feature3() {
