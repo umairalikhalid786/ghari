@@ -64,6 +64,7 @@ class MyWatchFace : CanvasWatchFaceService() {
     override fun onCreateEngine(): Engine {
         return Engine()
         // Some basic changes
+        // Second change
     }
 
     private class EngineHandler(reference: MyWatchFace.Engine) : Handler(Looper.myLooper()!!) {
