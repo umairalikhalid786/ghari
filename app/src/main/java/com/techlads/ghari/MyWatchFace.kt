@@ -66,6 +66,8 @@ class MyWatchFace : CanvasWatchFaceService() {
         return Engine()
         // Some basic changes
         // Second change
+
+        feature1()
     }
 
     private class EngineHandler(reference: MyWatchFace.Engine) : Handler(Looper.myLooper()!!) {
@@ -532,6 +534,11 @@ class MyWatchFace : CanvasWatchFaceService() {
                 mUpdateTimeHandler.sendEmptyMessageDelayed(MSG_UPDATE_TIME, delayMs)
             }
         }
+    }
+
+
+    private fun feature1(){
+        Log.e("f1", "feature 1")
     }
 
     fun feature3() {
