@@ -20,7 +20,6 @@ import androidx.palette.graphics.Palette
 import android.support.wearable.watchface.CanvasWatchFaceService
 import android.support.wearable.watchface.WatchFaceService
 import android.support.wearable.watchface.WatchFaceStyle
-import android.util.Log
 import android.view.SurfaceHolder
 import android.widget.Toast
 
@@ -66,8 +65,6 @@ class MyWatchFace : CanvasWatchFaceService() {
         return Engine()
         // Some basic changes
         // Second change
-
-        feature1()
     }
 
     private class EngineHandler(reference: MyWatchFace.Engine) : Handler(Looper.myLooper()!!) {
