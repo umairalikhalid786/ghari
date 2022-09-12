@@ -536,6 +536,17 @@ class MyWatchFace : CanvasWatchFaceService() {
         }
     }
 
+    fun feature3() {
+        // new feature added
+        // 10th change feature 3
+        // 11th change feature 3
+    }
+
+
+    private fun feature1(){
+        Log.e("f1", "feature 1")
+    }
+
 
     private fun feature1(){
         Log.e("f1", "feature 1")
