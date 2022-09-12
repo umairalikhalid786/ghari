@@ -538,6 +538,7 @@ class MyWatchFace : CanvasWatchFaceService() {
 
     fun feature3() {
         // new feature added
+        // 10th change feature 3
     }
 
 
