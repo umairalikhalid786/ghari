@@ -71,11 +71,6 @@ class MyWatchFace : CanvasWatchFaceService() {
         // tv tv
 
         feature1()
-        // hahahahahah hahaha
-        // haaha haha haha ha h haha hah
-        // tv tv
-
-        feature1()
     }
 
     private class EngineHandler(reference: MyWatchFace.Engine) : Handler(Looper.myLooper()!!) {
